@@ -11,6 +11,13 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
+/**
+ * This program aim to calculate the angle of transfer window between two stars
+ * that are in a same system for Kerbal Space Program players.
+ * 
+ * @author Chenjie Wu
+ *
+ */
 public class PlannerFrame extends JFrame {
     private JPanel mainPanel;
 
@@ -32,6 +39,7 @@ public class PlannerFrame extends JFrame {
         this.orbPer = new ArrayList<>();
         this.names.add("kerbin");
         this.names.add("sarnus");
+        this.names.add("");
         this.orbPer.add(426.0);
         this.orbPer.add(11987.0);
 
